@@ -1,0 +1,19 @@
+{
+  "name": "redux-architecture-skill",
+  "description": "Focused Redux Toolkit, TypeScript, Clean Architecture and TDD skills for AI coding agents.",
+  "version": "0.3.0",
+  "author": {
+    "name": "Redux Architecture Skills contributors"
+  },
+  "license": "MIT",
+  "skills": [
+    "./skills/redux-architecture-audit/",
+    "./skills/redux-clean-architecture/",
+    "./skills/redux-entity-modeling/",
+    "./skills/redux-event-driven/",
+    "./skills/redux-rtk-query/",
+    "./skills/redux-selectors/",
+    "./skills/redux-tdd/",
+    "./skills/redux-typescript-advanced/"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "redux-architecture",
+  "interface": {
+    "displayName": "Redux Architecture Skills"
+  },
+  "plugins": [
+    {
+      "name": "redux-architecture-skill",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "category": "Developer Tools",
+      "version": "0.3.0"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "name": "redux-architecture-skill",
+  "version": "0.3.0",
+  "description": "Focused Redux Toolkit, TypeScript, Clean Architecture and TDD skills for AI coding agents.",
+  "author": {
+    "name": "Redux Architecture Skills contributors"
+  },
+  "license": "MIT",
+  "keywords": [
+    "redux",
+    "redux-toolkit",
+    "typescript",
+    "clean-architecture",
+    "tdd",
+    "agent-skills"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Redux Architecture Skills",
+    "shortDescription": "Redux Toolkit architecture guidance",
+    "longDescription": "Eight focused Redux Toolkit and TypeScript skills covering architecture, events, entity modeling, RTK Query, selectors, testing and architecture audits. Read the relevant local skill without scanning unrelated files.",
+    "developerName": "Redux Architecture Skills contributors",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Read"
+    ],
+    "defaultPrompt": [
+      "Review this Redux feature for architecture problems and suggest minimal fixes.",
+      "Implement a typed Redux Toolkit feature using tests and appropriate ports."
+    ]
+  }
+}

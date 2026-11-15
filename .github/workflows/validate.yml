@@ -1,0 +1,24 @@
+name: Validate Agent Skills and example
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  example-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install example dependencies
+        run: npm install --no-audit --no-fund
+        working-directory: examples/order-flow
+      - name: Run example behavior tests
+        run: npm test
+        working-directory: examples/order-flow
+      - name: Run strict TypeScript check
+        run: npm run typecheck
+        working-directory: examples/order-flow

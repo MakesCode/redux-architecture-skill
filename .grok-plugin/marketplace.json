@@ -1,0 +1,14 @@
+{
+  "name": "redux-architecture",
+  "owner": {
+    "name": "Redux Architecture Skills contributors"
+  },
+  "plugins": [
+    {
+      "name": "redux-architecture-skill",
+      "source": "./",
+      "description": "Focused Redux Toolkit, TypeScript, Clean Architecture and TDD skills for AI coding agents.",
+      "version": "0.3.0"
+    }
+  ]
+}

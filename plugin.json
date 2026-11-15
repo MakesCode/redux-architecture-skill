@@ -1,0 +1,18 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "redux-architecture-skill",
+  "version": "0.3.0",
+  "description": "Focused Redux Toolkit, TypeScript, Clean Architecture and TDD skills for AI coding agents.",
+  "author": {
+    "name": "Redux Architecture Skills contributors"
+  },
+  "license": "MIT",
+  "keywords": [
+    "redux",
+    "redux-toolkit",
+    "typescript",
+    "clean-architecture",
+    "tdd",
+    "agent-skills"
+  ]
+}

@@ -1,0 +1,13 @@
+node_modules/
+dist/
+coverage/
+.DS_Store
+*.log
+*.tsbuildinfo
+.env
+.env.*
+!.env.example
+
+# Notes privées : traduction FR des 8 skills et des 9 références
+# Exclus de GitHub et de l’installation des skills
+/notes-privees/
